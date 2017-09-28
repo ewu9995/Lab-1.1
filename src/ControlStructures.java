@@ -17,16 +17,6 @@ public class ControlStructures {
 	
 	}
 	
-	
-	
-	
-			
-		
-	
-
-	
-	
-	
 
 	
 	public static void fooBarBaz() {
