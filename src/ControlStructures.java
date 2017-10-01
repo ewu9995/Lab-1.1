@@ -1,4 +1,4 @@
-// Evan Wu Lab 1.1 Due 9/28/17 
+// Evan Wu Lab 1.1 
 public class ControlStructures {
 	public static void main(String [] args) {
 		primePrinter();
@@ -61,7 +61,7 @@ public class ControlStructures {
 	
 	// Not used
 	public static boolean isPrime(int x) {
-		int number = 459;
+		int number = 229;
 		for  (x = 2; 2 *x <= number; x++) {
 			if (number % x == 0) {
 				return false;
