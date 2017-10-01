@@ -41,17 +41,17 @@ public class ControlStructures {
 			if ((x % 3 == 0) && !((x % 3 == 0) && (x % 7 ==0)) && !((x % 3 == 0) && (x % 10 ==0)) && !((x % 3 == 0) && (x % 7 ==0) && (x % 10 == 0)))  {
 			System.out.print(" "+"foo");
 			} else if ((x % 7 == 0) && !((x % 3 == 0) && (x % 7 ==0)) && !((x % 7 == 0) && (x % 10 == 0)) && !((x % 3 == 0) && (x % 7 == 0) && (x % 10 == 0))) {
-				System.out.print(" "+"Bar");
+				System.out.print(" "+"bar");
 			} else if ((x % 10 == 0) && !((x % 3 == 0) && (x % 10 == 0)) && !((x % 7 == 0) && (x % 10 == 0)) && !((x % 3 == 0) && (x % 7 == 0) && (x % 10 == 0))) {
 				System.out.print(" "+"baz");
-			} else if ((x % 3 == 0) && (x % 7 ==0)) {
-				System.out.print(" "+"fooBar");
-			} else if ((x % 3 == 0) && (x % 10 ==0)) {
+			} else if ((x % 3 == 0) && (x % 7 ==0) && !((x % 3 == 0) && (x % 7 ==0) && (x % 10 == 0))) {
+				System.out.print(" "+"foobar");
+			} else if ((x % 3 == 0) && (x % 10 ==0) && !((x % 3 == 0) && (x % 7 ==0) && (x % 10 == 0))) {
 				System.out.print(" "+"foobaz");
-			} else if ((x % 7 == 0) && (x % 10 ==0)) {
-				System.out.print(" "+"Barbaz");
+			} else if ((x % 7 == 0) && (x % 10 ==0) && !((x % 3 == 0) && (x % 7 ==0) && (x % 10 == 0))) {
+				System.out.print(" "+"barbaz");
 			} else if ((x % 3 == 0) && (x % 7 ==0) && (x % 10 == 0)) {
-				System.out.print(" "+"fooBarbaz");
+				System.out.print(" "+"foobarbaz");
 			} else {
 				System.out.print(" " +x);
 			}	
