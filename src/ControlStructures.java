@@ -1,4 +1,4 @@
-// Evan Wu Lab 1.1 
+// Evan Wu Lab 1.1 Due 10/1/17
 public class ControlStructures {
 	public static void main(String [] args) {
 		primePrinter();
