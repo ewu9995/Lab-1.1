@@ -12,7 +12,6 @@ public class ControlStructures {
 		int x = 0;
 		int number = 0;
 		int count=0;
-		String primeNumber = "";
 		for (x = 1;  x <= 229; x++) {
 			int counter=0;
 			for (number=x; number>=1; number--) {
@@ -28,7 +27,6 @@ public class ControlStructures {
 				System.out.print("\n");
 				count =0;
 			}
-			primeNumber = primeNumber + x + " ";
 			}
 		}
 	}
